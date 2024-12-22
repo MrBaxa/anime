@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body {
+  background-color: rgb(28, 28, 49);
+}
+header {
+  color: white;
+  background-color: rgb(28, 28, 49);
+  height: 64px;
+}
+.btn {
+  width: 175px;
+  height: 50px;
+  gap: 0px;
+  border-radius: 15px;
+}
+.navbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+select {
+  color: white;
+  border: none;
+  background: none;
+  outline: none;
+}
+option {
+  color: black;
+}
+
+.btn {
+  width: 175px;
+  height: 50px;
+  gap: 0px;
+  border-radius: 15px;
+  background: #bfaff2;
+}
+.btnn {
+  margin-right: 20px;
+  color: white;
+  background-color: rgb(28, 28, 49);
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.card_one img {
+    margin-top: 70px;
+  width: 248px;
+  height: 320px;
+  gap: 0px;
+  opacity: 0px;
+  transform: -180 deg;
+}
+p {
+  margin-top: 10px;
+  width: 255px;
+  color: aliceblue;
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+h1 {
+  color: antiquewhite;
+  font-family: Outfit;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.wrapper_cards{
+display: flex;
+align-items: center;
+justify-content:space-between ;
+}
